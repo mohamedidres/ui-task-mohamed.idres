@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#143d2b"/><circle cx="1000" cy="100" r="240" fill="#bef264" opacity=".16"/><circle cx="1050" cy="620" r="320" fill="#bef264" opacity=".12"/>
+<path d="M0 530 Q300 430 600 540 T1200 500 V675 H0Z" fill="#bef264" opacity=".15"/>
+<text x="85" y="220" fill="#bef264" font-family="Arial,sans-serif" font-size="52" font-weight="700" letter-spacing="8">GREEN</text>
+<text x="85" y="310" fill="white" font-family="Arial,sans-serif" font-size="76" font-weight="800">CAMPUS DAY</text>
+<text x="90" y="385" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="30">Small actions, greener future</text>
+<text x="90" y="585" fill="white" font-family="Arial,sans-serif" font-size="23">CAMPUS EVENTS GUIDE</text></svg>

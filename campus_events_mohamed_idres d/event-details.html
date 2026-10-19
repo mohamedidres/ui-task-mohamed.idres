@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="Discover campus events, schedules and registration information." name="description" />
+  <title>
+    Event Details | Campus Events Guide
+  </title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <input class="dark-toggle" id="dark-mode" type="checkbox" />
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        Campus Events Guide
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">
+          Home
+        </a>
+        <a href="events.html">
+          Events
+        </a>
+        <a href="event-details.html">
+          Details
+        </a>
+        <a href="schedule.html">
+          Schedule
+        </a>
+        <a href="registration.html">
+          Register
+        </a>
+      </nav>
+      <label class="theme-label" for="dark-mode">
+        ☾ Dark mode
+      </label>
+    </div>
+  </header>
+  <main>
+    <p class="eyebrow">
+      Featured event
+    </p>
+    <h1>
+      Tech &amp; Innovation Day
+    </h1>
+    <p class="muted">
+      Friday, 20 November 2026 · 10:00 AM-2:00 PM · Main Auditorium
+    </p>
+    <div class="two-col">
+      <section>
+        <img alt="Tech and Innovation Day poster with the event title" class="detail-poster"
+          src="assets/tech-day.svg" />
+        <h2>
+          About the event
+        </h2>
+        <p>
+          Tech &amp; Innovation Day brings students together to share creative projects, demonstrate practical solutions
+          and exchange ideas. Meet student teams, ask questions and discover opportunities to collaborate.
+        </p>
+        <h2>
+          Agenda
+        </h2>
+        <ol>
+          <li>
+            <strong>
+              10:00 AM:
+            </strong>
+            Welcome and opening remarks
+          </li>
+          <li>
+            <strong>
+              10:30 AM:
+            </strong>
+            Student project demonstrations
+          </li>
+          <li>
+            <strong>
+              12:00 PM:
+            </strong>
+            Innovation talk and Q&amp;A
+          </li>
+          <li>
+            <strong>
+              1:00 PM:
+            </strong>
+            Networking and project showcase
+          </li>
+          <li>
+            <strong>
+              2:00 PM:
+            </strong>
+            Closing
+          </li>
+        </ol>
+        <h2>
+          Entry information
+        </h2>
+        <p>
+          Entry is free for students. Please complete the registration form so the organizers can estimate attendance.
+        </p>
+        <a class="button" href="registration.html">
+          Register for this event
+        </a>
+      </section>
+      <aside class="panel">
+        <h2>
+          Event at a glance
+        </h2>
+        <p>
+          <strong>
+            Date:
+          </strong>
+          20 November 2026
+        </p>
+        <p>
+          <strong>
+            Time:
+          </strong>
+          10:00 AM–2:00 PM
+        </p>
+        <p>
+          <strong>
+            Venue:
+          </strong>
+          Main Auditorium
+        </p>
+        <p>
+          <strong>
+            Category:
+          </strong>
+          Technology
+        </p>
+        <h2>
+          Event media
+        </h2>
+        <p>
+          Watch this short sample clip about creative ideas and innovation.
+        </p>
+        <video aria-label="Sample event video" controls="" poster="assets/tech-day.svg" preload="metadata">
+          <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+          Your browser does not support HTML video.
+        </video>
+        <small>
+          Sample video source used to demonstrate the required HTML media element.
+        </small>
+      </aside>
+    </div>
+    <section class="form-card section-spaced">
+      <h2>
+        Leave an event review
+      </h2>
+      <p class="muted">
+        Share feedback with the event team. This demo form does not submit data.
+      </p>
+      <form action="#" method="get">
+        <div class="form-grid">
+          <div class="field">
+            <label for="review-name">
+              Your name
+            </label>
+            <input id="review-name" maxlength="60" name="review-name" placeholder="Enter your name" required=""
+              type="text" />
+          </div>
+          <div class="field">
+            <label for="review-email">
+              Email address
+            </label>
+            <input id="review-email" name="review-email" required="" type="email" />
+          </div>
+        </div>
+        <div class="field">
+          <label for="rating">
+            Your rating (1–5)
+          </label>
+          <select id="rating" name="rating" required="">
+            <option value="">
+              Choose a rating
+            </option>
+            <option>
+              5 - Excellent
+            </option>
+            <option>
+              4 - Very good
+            </option>
+            <option>
+              3 - Good
+            </option>
+            <option>
+              2 - Fair
+            </option>
+            <option>
+              1 - Needs improvement
+            </option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="review">
+            Your review
+          </label>
+          <textarea id="review" maxlength="500" name="review" placeholder="What did you enjoy?" required=""
+            rows="4"></textarea>
+        </div>
+        <div class="field">
+          <label for="review-file">
+            Upload an optional image or document
+          </label>
+          <input accept="image/*,.pdf" id="review-file" name="review-file" type="file" />
+        </div>
+        <button type="submit">
+          Submit review
+        </button>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>
+        © 2026 Campus Events Guide · Student community, connected.
+      </span>
+      <div>
+        <a href="https://www.facebook.com/" rel="noopener" target="_blank">
+          Facebook
+        </a>
+        <a href="https://www.instagram.com/" rel="noopener" target="_blank">
+          Instagram
+        </a>
+        <a href="https://www.linkedin.com/" rel="noopener" target="_blank">
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

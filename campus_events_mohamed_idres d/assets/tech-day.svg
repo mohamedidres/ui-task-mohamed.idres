@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081a2f"/>
+      <stop offset="1" stop-color="#123f55"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#164e63"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#background)"/>
+  <g fill="none" stroke="#2dd4bf" stroke-width="2" opacity=".25">
+    <path d="M0 90 H350 L410 150 H570"/>
+    <path d="M0 130 H290 L350 190 H470"/>
+    <path d="M770 0 V90 L830 150 H1200"/>
+    <path d="M870 0 V55 L930 115 H1200"/>
+    <path d="M780 675 V590 L850 520 H1200"/>
+    <path d="M0 560 H250 L310 500 H420"/>
+  </g>
+  <g opacity=".18" fill="#2dd4bf">
+    <circle cx="990" cy="310" r="190"/>
+    <circle cx="990" cy="310" r="145" fill="none" stroke="#2dd4bf" stroke-width="3"/>
+    <circle cx="990" cy="310" r="100" fill="none" stroke="#2dd4bf" stroke-width="3"/>
+  </g>
+
+  <!-- Simple laptop and circuit illustration -->
+  <g transform="translate(760 175)">
+    <rect x="45" y="35" width="270" height="190" rx="14" fill="#07111f" stroke="#5eead4" stroke-width="5"/>
+    <rect x="62" y="52" width="236" height="156" rx="6" fill="url(#screen)"/>
+    <path d="M85 105 H125 L145 82 H190" fill="none" stroke="#99f6e4" stroke-width="7" stroke-linecap="round"/>
+    <path d="M90 150 H145 L165 170 H235" fill="none" stroke="#2dd4bf" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="190" cy="82" r="8" fill="#f8fafc"/>
+    <circle cx="235" cy="170" r="8" fill="#f8fafc"/>
+    <path d="M15 235 H345 L315 265 H45 Z" fill="#94a3b8"/>
+    <path d="M120 237 H240" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g fill="#2dd4bf">
+    <circle cx="740" cy="160" r="7"/>
+    <circle cx="1090" cy="480" r="7"/>
+    <circle cx="700" cy="420" r="5"/>
+    <circle cx="1130" cy="180" r="5"/>
+  </g>
+
+  <text x="78" y="115" fill="#5eead4" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="6">CAMPUS EVENTS GUIDE</text>
+  <text x="78" y="230" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="67" font-weight="800">TECH &amp;</text>
+  <text x="78" y="310" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="67" font-weight="800">INNOVATION DAY</text>
+  <rect x="80" y="345" width="105" height="7" rx="3" fill="#2dd4bf"/>
+  <text x="80" y="395" fill="#dbeafe" font-family="Arial, Helvetica, sans-serif" font-size="27">Student projects • Ideas • Demonstrations</text>
+  <text x="80" y="475" fill="#99f6e4" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">20 NOVEMBER 2026</text>
+  <text x="80" y="515" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="22">Main Auditorium  |  10:00 AM – 2:00 PM</text>
+  <text x="80" y="610" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="18">DISCOVER • CREATE • CONNECT</text>
+</svg>

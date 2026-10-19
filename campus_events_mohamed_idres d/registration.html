@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="Discover campus events, schedules and registration information." name="description" />
+  <title>
+    Registration | Campus Events Guide
+  </title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <input class="dark-toggle" id="dark-mode" type="checkbox" />
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        Campus Events Guide
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">
+          Home
+        </a>
+        <a href="events.html">
+          Events
+        </a>
+        <a href="event-details.html">
+          Details
+        </a>
+        <a href="schedule.html">
+          Schedule
+        </a>
+        <a href="registration.html">
+          Register
+        </a>
+      </nav>
+      <label class="theme-label" for="dark-mode">
+        ☾ Dark mode
+      </label>
+    </div>
+  </header>
+  <main>
+    <p class="eyebrow">
+      Save your place
+    </p>
+    <h1>
+      Event registration
+    </h1>
+    <section class="panel section-spaced">
+      <h2>
+        Tech &amp; Innovation Day
+      </h2>
+      <p class="meta">
+        20 November 2026 · 10:00 AM–2:00 PM · Main Auditorium
+      </p>
+      <p>
+        Entry is free for students. Complete the form below. This is a front-end demonstration and does not save or send
+        your details.
+      </p>
+    </section>
+    <section class="form-card">
+      <form action="#" method="get">
+        <div class="form-grid">
+          <div class="field">
+            <label for="attendee-name">
+              Attendee name *
+            </label>
+            <input id="attendee-name" maxlength="60" name="attendee-name" pattern="[A-Za-z][A-Za-z .'-]{1,59}"
+              placeholder="e.g. Alex Morgan" required="" type="text" />
+            <small>
+              Use 2–60 letters; spaces and simple punctuation are allowed.
+            </small>
+          </div>
+          <div class="field">
+            <label for="email">
+              Email address *
+            </label>
+            <input id="email" maxlength="100" name="email" placeholder="name@example.com" required="" type="email" />
+          </div>
+          <div class="field">
+            <label for="portfolio">
+              Portfolio or profile URL
+            </label>
+            <input id="portfolio" name="portfolio" placeholder="https://example.com" type="url" />
+          </div>
+          <div class="field">
+            <label for="guests">
+              Number of guests (including you)
+            </label>
+            <input id="guests" max="5" min="1" name="guests" required="" type="number" value="1" />
+          </div>
+          <div class="field">
+            <label for="arrival-date">
+              Arrival date *
+            </label>
+            <input id="arrival-date" max="2026-11-20" min="2026-10-19" name="arrival-date" required="" type="date"
+              value="2026-11-20" />
+          </div>
+          <div class="field">
+            <label for="arrival-time">
+              Expected arrival time *
+            </label>
+            <input id="arrival-time" max="13:30" min="09:30" name="arrival-time" required="" type="time" />
+          </div>
+          <div class="field">
+            <label for="badge-color">
+              Choose your badge color
+            </label>
+            <input id="badge-color" name="badge-color" type="color" value="#0f766e" />
+          </div>
+          <div class="field">
+            <label for="interest">
+              Interest level (1-10)
+            </label>
+            <input id="interest" max="10" min="1" name="interest" type="range" value="7" />
+            <small>
+              Move the slider to show your interest level.
+            </small>
+          </div>
+          <div class="field">
+            <label for="ticket">
+              Event choice *
+            </label>
+            <select id="ticket" name="ticket" required="">
+              <option value="">
+                Select an option
+              </option>
+              <option value="full">
+                Full event
+              </option>
+              <option value="morning">
+                Morning sessions
+              </option>
+              <option value="afternoon">
+                Afternoon showcase
+              </option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="student-card">
+              Upload student ID (optional)
+            </label>
+            <input accept="image/*,.pdf" id="student-card" name="student-card" type="file" />
+          </div>
+        </div>
+        <fieldset>
+          <legend>
+            Attendance type *
+          </legend>
+          <div class="inline-options">
+            <label>
+              <input name="attendance" required="" type="radio" value="student" />
+              Student
+            </label>
+            <label>
+              <input name="attendance" type="radio" value="guest" />
+              Guest
+            </label>
+            <label>
+              <input name="attendance" type="radio" value="presenter" />
+              Project presenter
+            </label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>
+            Access and event preferences
+          </legend>
+          <div class="inline-options">
+            <label>
+              <input name="updates" type="checkbox" value="yes" />
+              Email me event updates
+            </label>
+            <label>
+              <input name="access" type="checkbox" value="step-free" />
+              I need step-free access
+            </label>
+            <label>
+              <input name="diet" type="checkbox" value="refreshments" />
+              I have a refreshment request
+            </label>
+          </div>
+        </fieldset>
+        <div class="field">
+          <label for="notes">
+            Access needs or additional notes
+          </label>
+          <textarea id="notes" maxlength="400" name="notes"
+            placeholder="Tell the organizers anything they should know (optional)." rows="4"></textarea>
+        </div>
+        <button type="submit">
+          Complete registration
+        </button>
+        <small>
+          Fields marked * are required. Browser validation checks the information before the form can be submitted.
+        </small>
+      </form>
+    </section>
+    <section class="panel" style="margin-top:22px">
+      <h2>
+        Event contact
+      </h2>
+      <p>
+        <strong>
+          Campus Events Team
+        </strong>
+      </p>
+      <p>
+        Email:
+        <a href="mailto:events@example.edu">
+          events@example.edu
+        </a>
+      </p>
+      <p>
+        Venue: Main Auditorium, Campus
+      </p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>
+        © 2026 Campus Events Guide · Student community, connected.
+      </span>
+      <div>
+        <a href="https://www.facebook.com/" rel="noopener" target="_blank">
+          Facebook
+        </a>
+        <a href="https://www.instagram.com/" rel="noopener" target="_blank">
+          Instagram
+        </a>
+        <a href="https://www.linkedin.com/" rel="noopener" target="_blank">
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
